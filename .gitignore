@@ -12,6 +12,8 @@ __pycache__/
 venv/
 .envrc
 
+project_2/faiss_index
+
 # Jupyter
 .ipynb_checkpoints/
 
