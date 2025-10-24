@@ -1,7 +1,11 @@
 
-# Local RAG (MongoDB) — Deployment Notes
+# Offline RAG — Deployment Notes
 
 This repository contains notes and commands for a local retrieval-augmented generation (RAG) setup using MongoDB.
+- Offline LLM
+- Offline Embeddings
+- Offline Vector DB (MongoDB Atlas) - local atlas - docker based
+
 
 ## Prerequisites
 - Homebrew (macOS)
