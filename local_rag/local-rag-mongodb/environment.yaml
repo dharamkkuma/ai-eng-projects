@@ -1,0 +1,10 @@
+name: local-mongodb-rag-chatbot
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - pymongo
+      - gpt4all
+      - sentence_transformers
