@@ -21,6 +21,13 @@ Each project comes with an `environment.yml` file that specifies its dependencie
    ```bash
    conda env create -f environment.yml
    conda activate <ENV_NAME>
+
+
+   conda info --envs
+   conda env list
+
+   conda list -n <environment_name>
+   conda deactivate <ENV_NAME>
    ```
    The environment name is set inside the YAML. You can change it if desired.
 3. Launch Jupyter and open the notebook for the current week:
