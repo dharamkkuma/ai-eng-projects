@@ -32,7 +32,7 @@ def web_search(query: str) -> str:
 
 # ----------------------------AGENT------------------------------------
 
-llm = ChatOllama(model="llama3", temperature=0)
+llm = ChatOllama(model="gemma3", temperature=0)
 tools = [web_search]
 agent = initialize_agent(
     tools,
